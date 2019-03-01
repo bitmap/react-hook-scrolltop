@@ -1,0 +1,41 @@
+{
+  "name": "react-hook-scrolltop",
+  "version": "1.0.0",
+  "description": "React Hook for detecting when scrolled to top of page",
+  "main": "dist/index.js",
+  "repository": "https://github.com/bitmap/react-hook-scrolltop",
+  "browser": true,
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepublishOnly": "rm -rf dist && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react hook",
+    "react hooks",
+    "hook",
+    "hooks",
+    "scrolltop",
+    "scroll top"
+  ],
+  "author": {
+    "name": "Cabe Branson",
+    "url": "https://cabe.dev"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "eslint": "^5.13.0",
+    "eslint-plugin-react": "^7.12.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
