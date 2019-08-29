@@ -1,4 +1,3 @@
-/* global window */
 import { useState, useEffect } from 'react'
 import { throttle } from 'lodash'
 
